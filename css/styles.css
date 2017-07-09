@@ -1,0 +1,61 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: #5BC8AC;
+	font-family: Helvetica;
+}
+
+/* Header */
+#header-nav {
+	background-color: #F18D9E;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+}
+#brand-name {
+	font-size: 2.5em;
+	font-weight: 700;
+	width: 250px;
+	float: left;
+	letter-spacing: 1.25px;
+	margin: 27px 15px 10px 0;
+	color: #E6D72A;
+}
+button.navbar-toggle {
+	margin-top: 35px;
+}
+a:hover {
+	text-decoration: none;
+} 
+#brand-name:hover {
+	color: #D9CA1D;
+}
+
+/* Menu*/
+ul#nav-list a {
+	color: white;
+	font-size: 1.8em;
+	text-align: center;
+}
+#nav-list a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+/*Body*/
+#chicken {
+	background-color: #98DBC6;
+	padding: 15px 25px;
+	margin-bottom: 50px;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+	#brand-name {
+		margin-left: 5%;
+	}
+	#chicken.container {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+}
